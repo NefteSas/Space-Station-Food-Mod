@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:patymeat"
+    },
+    {
+      "item": "ssfm:kitchen_knife"
+    }
+  ],
+  "result": {
+    "item": "ssfm:raw_patty",
+    "count": 4
+  }
+}

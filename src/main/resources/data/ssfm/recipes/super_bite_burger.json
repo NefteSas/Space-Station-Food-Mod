@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "SSS",
+    "HHH"
+  ],
+  "key": {
+    "#": {
+      "item": "ssfm:cheese_wedge"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "S": {
+      "item": "ssfm:fired_patty"
+    },
+    "H": {
+      "item": "ssfm:bun_item"
+    }
+  },
+  "result": {
+    "item": "ssfm:super_bite_burger",
+    "count": 1
+  }
+}

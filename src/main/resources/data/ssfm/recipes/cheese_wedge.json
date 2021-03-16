@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "ssfm:kitchen_knife"
+    },
+    "S": {
+      "item": "ssfm:cheese_wheel"
+    }
+  },
+  "result": {
+    "item": "ssfm:cheese_wedge",
+    "count": 4
+  }
+}

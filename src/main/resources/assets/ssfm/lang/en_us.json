@@ -1,0 +1,45 @@
+{
+  "itemGroup.ssfm.general": "Space Station Food Mod",
+
+  "item.ssfm.kitchen_knife": "Kitchen Knife",
+  "item.ssfm.kitchen_knife.tooltip": "There is still some monkey fur...",
+
+  "item.ssfm.redstone_burger": "Redstone burger",
+  "item.ssfm.redstone_burger.tooltip": "Redstone burger, How does it eat?",
+
+  "item.ssfm.universal_enzyme": "Universal Enzyme",
+  "item.ssfm.universal_enzyme.tooltip": "Did a dragon grow out of this?",
+
+  "item.ssfm.standart_burger": "Burger",
+  "item.ssfm.standart_burger.tooltip": "The captain loves them...",
+
+  "item.ssfm.cheese_burger": "Cheese Burger",
+  "item.ssfm.cheese_burger.tooltip": "Che-e-ese:з",
+
+  "item.ssfm.ghost_burger": "Ghost Burger",
+  "item.ssfm.ghost_burger.tooltip": "Prepared by the late Boris Klyuev.",
+
+  "item.ssfm.big_bite_burger": "Burger in the Square",
+  "item.ssfm.big_bite_burger.tooltip": "For big mouths!",
+
+  "item.ssfm.super_bite_burger": "Burger Сubed",
+  "item.ssfm.super_bite_burger.tooltip": "One of these is capable of saturating the dragon of the end!",
+
+  "item.ssfm.bun_item": "Bun",
+  "item.ssfm.bun_item.tooltip": "Bun. Do you think there will be a hidden meaning?",
+  "item.ssfm.bun_item.tooltip2": "This is just a wheat bun, grown in the French fields near Lyon,",
+  "item.ssfm.bun_item.tooltip3": "harvested by the gentle hands of a coder,",
+  "item.ssfm.bun_item.tooltip4": "ground in a mortar by some madman and baked in a thermal centrifuge",
+  "item.ssfm.bun_item.tooltip5": "and that's it.",
+
+  "item.ssfm.raw_patty": "Raw Patty",
+  "item.ssfm.raw_patty.tooltip": "Raw cutlet made from monkeys.",
+
+  "item.ssfm.fired_patty": "Patty",
+  "item.ssfm.fired_patty.tooltip": "Cutlet fried in the oven in its own juice.",
+  "item.ssfm.fired_patty.tooltip2": "Stop, how can you fry in the oven?",
+
+  "item.ssfm.cheese_wedge": "Cheese Wedge",
+  "item.ssfm.cheese_wheel": "Cheese Wheel",
+  "item.ssfm.cheese_wheel.tooltip": "Filmed from the clown's car."
+}

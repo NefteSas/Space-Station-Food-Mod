@@ -1,0 +1,46 @@
+{
+  "itemGroup.ssfm.general": "Space Station Food Mod",
+
+  "item.ssfm.kitchen_knife": "Кухонный Нож",
+  "item.ssfm.kitchen_knife.tooltip": "Тут еще осталась шерсть обезьяны...",
+
+  "item.ssfm.redstone_burger": "Краснокаменный бургер",
+  "item.ssfm.redstone_burger.tooltip": "Бургер с красным камнем, как это есть?",
+
+  "item.ssfm.universal_enzyme": "Уневирсальный Фермент",
+  "item.ssfm.universal_enzyme.tooltip": "Из этого вырос дракон?",
+
+  "item.ssfm.standart_burger": "Гамбургер",
+  "item.ssfm.standart_burger.tooltip": "Капитан любит их...",
+
+  "item.ssfm.cheese_burger": "Сырный Гамбургер",
+  "item.ssfm.cheese_burger.tooltip": "Сы-ы-ы-р:з",
+
+  "item.ssfm.ghost_burger": "Призрачный Бургер",
+  "item.ssfm.ghost_burger.tooltip": "Приготовлен покойным Борисом Клюевом.",
+
+  "item.ssfm.big_bite_burger": "Бургер в Квадрате",
+  "item.ssfm.big_bite_burger.tooltip": "Для больших ртов!",
+
+  "item.ssfm.super_bite_burger": "Бургер в Кубе",
+  "item.ssfm.super_bite_burger.tooltip": "Один такой способен насытить дракона энда!",
+
+  "item.ssfm.bun_item": "Булка",
+  "item.ssfm.bun_item.tooltip": "Булка. Думаешь тут будет скрытый смысл?",
+  "item.ssfm.bun_item.tooltip2": "Это просто пшеничная булка, выращенная на французских полях близ Лиона",
+  "item.ssfm.bun_item.tooltip3": "собранный, нежными руками кодера",
+  "item.ssfm.bun_item.tooltip4": "молотый в ступке каким то безумцем и испечён в термальной центрифуге",
+  "item.ssfm.bun_item.tooltip5": "и всё!",
+
+  "item.ssfm.raw_patty": "Сырая Котлета",
+  "item.ssfm.raw_patty.tooltip": "Сырая Котлета, сделанная из обезьян.",
+
+  "item.ssfm.fired_patty": "Котлета",
+  "item.ssfm.fired_patty.tooltip": "Котлета, жаренная в печи в собственном соку.",
+  "item.ssfm.fired_patty.tooltip2": "Стоп, как в печи можно жарить?",
+
+  "item.ssfm.cheese_wedge": "Кусок Сыра",
+
+  "item.ssfm.cheese_wheel": "Сырное колесо",
+  "item.ssfm.cheese_wheel.tooltip": "Снято с машины клоуна."
+}

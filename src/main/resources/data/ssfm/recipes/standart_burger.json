@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " C ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "ssfm:bun_item"
+    },
+    "C": {
+      "item": "ssfm:fired_patty"
+    }
+  },
+  "result": {
+    "item": "ssfm:standart_burger",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ssfm",
+  "version": "${version}",
+
+  "name": "Space Station Food Mod",
+  "description": "MORE FOOD!!!",
+  "authors": [
+    "NefteSas AKA Sasania (Code, usless shit)1 and Danilcus (Ideas, Sprites) Sprites getted from TG Station"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/space-station-food-mod"
+  },
+
+  "license": "AGPL-3.0 License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "sffm.mod.sfffmbody.Core"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

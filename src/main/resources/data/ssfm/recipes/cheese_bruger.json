@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "S  ",
+    "W  "
+  ],
+  "key": {
+    "#": {
+      "item": "ssfm:cheese_wedge"
+    },
+    "S": {
+      "item": "ssfm:fired_patty"
+    },
+    "W": {
+      "item": "ssfm:bun_item"
+    }
+  },
+  "result": {
+    "item": "ssfm:cheese_burger",
+    "count": 1
+  }
+}

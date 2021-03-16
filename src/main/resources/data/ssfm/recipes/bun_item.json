@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "ssfm:kitchen_knife"
+    }
+  ],
+  "result": {
+    "item": "ssfm:bun_item",
+    "count": 2
+  }
+}

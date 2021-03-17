@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Space Station Food Mod
+
+Mod whose purpose is to add all or most of the food from the game Space Station 13 or, more precisely, its TG Station build.
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Setup Fabric API V >= 0.7.4 and put the mod in the mods folder if it is not there - Create.

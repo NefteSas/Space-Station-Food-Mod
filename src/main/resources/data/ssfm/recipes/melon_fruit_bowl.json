@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#WP",
+    "SMC"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:apple"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    },
+    "M": {
+      "item": "minecraft:melon"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "ssfm:melon_fruit_bowl",
+    "count": 1
+  }
+}

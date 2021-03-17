@@ -41,5 +41,14 @@
 
   "item.ssfm.cheese_wedge": "Cheese Wedge",
   "item.ssfm.cheese_wheel": "Cheese Wheel",
-  "item.ssfm.cheese_wheel.tooltip": "Filmed from the clown's car."
+  "item.ssfm.cheese_wheel.tooltip": "Filmed from the clown's car.",
+
+  "item.ssfm.melon_fruit_bowl": "Watermelon stuffed with Fruit",
+  "item.ssfm.melon_fruit_bowl.tooltip": "A watermelon for a bowl? Original!",
+
+  "item.ssfm.herb_salad": "Herb Salad",
+  "item.ssfm.herb_salad.tooltip": "Salad for real vegans!",
+
+  "item.ssfm.aesir_salad": "Aesir Salad",
+  "item.ssfm.aesir_salad.tooltip": "A salad for real vegans and rich people at the same time!"
 }

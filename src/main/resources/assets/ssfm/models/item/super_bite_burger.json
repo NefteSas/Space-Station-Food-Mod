@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ssfm:item/super_bite_burger"
+    "layer0": "ssfm:item/burgers/super_bite_burger"
   }
 }

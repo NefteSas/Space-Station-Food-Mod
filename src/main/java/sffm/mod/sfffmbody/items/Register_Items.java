@@ -14,7 +14,7 @@ public class Register_Items{
 
     public static final ItemGroup ITEM_GROUP = Core.ITEM_GROUP;
 
-
+    //Burger
 
     public static final Foods.Burgers.Ghost_Burger GHOST_BURGER = new Foods.Burgers.Ghost_Burger(new Item.Settings().group(ITEM_GROUP)
 
@@ -28,7 +28,7 @@ public class Register_Items{
 
                     .saturationModifier(4F)
 
-                    .meat() //Описываем то что это мясо
+                    .meat()
 
                     .build()));
 
@@ -110,7 +110,7 @@ public class Register_Items{
 
                     .build()));
 
-
+    //Ingridients
 
     public static final Foods.Ingridients.bun BUN_ITEM = new Foods.Ingridients.bun(new Item.Settings().group(ITEM_GROUP)
             .maxCount(32)
@@ -158,7 +158,7 @@ public class Register_Items{
 
                     .build()));
 
-
+    //Cheese
 
     public static final Foods.Ingridients.Cheese_Class.Cheese_Wheel CHEESE_WHEEL_ITEM = new Foods.Ingridients.Cheese_Class.Cheese_Wheel(new Item.Settings().group(ITEM_GROUP)
             .maxCount(1)
@@ -184,7 +184,7 @@ public class Register_Items{
 
                     .build()));
 
-
+    //Other
 
     public static final Foods.Ingridients.Other.Universal_Enzyme UNIVERSAL_ENZYME_ITEM = new Foods.Ingridients.Other.Universal_Enzyme(new Item.Settings().group(ITEM_GROUP)
             .maxCount(64)
@@ -202,7 +202,47 @@ public class Register_Items{
 
 
 
+    //Salads
 
+    public static final Foods.Salads.Melon_Fruit_Bowl MELON_FRUIT_BOWL = new Foods.Salads.Melon_Fruit_Bowl(new Item.Settings().group(ITEM_GROUP)
+            .maxCount(8)
+
+            .food(new FoodComponent.Builder()
+                    .hunger(2)
+
+                    .saturationModifier(1F)
+
+                    .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(10),1200), 1F) //минута
+
+                    .build()));
+
+    public static final Foods.Salads.Herb_Salad HERB_SALAD = new Foods.Salads.Herb_Salad(new Item.Settings().group(ITEM_GROUP)
+            .maxCount(16)
+
+            .food(new FoodComponent.Builder()
+                    .hunger(2)
+
+                    .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(10),600), 1F) //30c
+
+                    .saturationModifier(0.1F)
+
+
+                    .build()));
+
+    public static final Foods.Salads.Aesir_Salad AESIR_SALAD = new Foods.Salads.Aesir_Salad(new Item.Settings().group(ITEM_GROUP)
+            .maxCount(16)
+
+            .food(new FoodComponent.Builder()
+                    .hunger(2)
+
+                    .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(10),600), 1F) //30c
+
+                    .statusEffect(new StatusEffectInstance(StatusEffect.byRawId(16),600), 1F) //30c
+
+                    .saturationModifier(0.1F)
+
+
+                    .build()));
 
     public static void register() {
         //BURGERS
@@ -221,5 +261,9 @@ public class Register_Items{
         Registry.register(Registry.ITEM, new Identifier("ssfm", "cheese_wheel"), CHEESE_WHEEL_ITEM);
         //INGRIDIENTS_OTHER
         Registry.register(Registry.ITEM, new Identifier("ssfm", "universal_enzyme"), UNIVERSAL_ENZYME_ITEM);
+        //SALADS
+        Registry.register(Registry.ITEM,new Identifier("ssfm", "melon_fruit_bowl"), MELON_FRUIT_BOWL);
+        Registry.register(Registry.ITEM,new Identifier("ssfm", "herb_salad"), HERB_SALAD);
+        Registry.register(Registry.ITEM,new Identifier("ssfm", "aesir_salad"), AESIR_SALAD);
     }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ssfm:item/raw_patty"
+    "layer0": "ssfm:item/ingridients/raw_patty"
   }
 }

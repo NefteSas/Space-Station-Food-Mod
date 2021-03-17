@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "WEW",
+    "WBW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_carrot"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "E": {
+      "item": "minecraft:golden_apple"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "ssfm:aesir_salad",
+    "count": 1
+  }
+}

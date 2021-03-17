@@ -42,5 +42,14 @@
   "item.ssfm.cheese_wedge": "Кусок Сыра",
 
   "item.ssfm.cheese_wheel": "Сырное колесо",
-  "item.ssfm.cheese_wheel.tooltip": "Снято с машины клоуна."
+  "item.ssfm.cheese_wheel.tooltip": "Снято с машины клоуна.",
+
+  "item.ssfm.melon_fruit_bowl": "Арбуз фаршированный Фруктами",
+  "item.ssfm.melon_fruit_bowl.tooltip": "Арбуз в качестве миски?Оригинально!",
+
+  "item.ssfm.herb_salad": "Салат с Травами",
+  "item.ssfm.herb_salad.tooltip": "Салат для настоящих веганов!",
+
+  "item.ssfm.aesir_salad": "эзирский салат",
+  "item.ssfm.aesir_salad.tooltip": "Салат для настоящих веганов и богатеев одновременно!"
 }

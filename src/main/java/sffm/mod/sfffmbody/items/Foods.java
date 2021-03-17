@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 import sffm.mod.sfffmbody.Core;
@@ -72,19 +73,20 @@ public class Foods {
 
         public static class Cheese_Class {
 
-            public static class Cheese_Wedge extends Item{
+            public static class Cheese_Wedge extends Item {
                 @Override
                 public void onCraft(ItemStack stack, World world, PlayerEntity player) {
                     stack.setDamage(5);
                     player.giveItemStack(new ItemStack(Core.kostil.KITCHEN_KNIFE));
                     super.onCraft(stack, world, player);
                 }
+
                 public Cheese_Wedge(Settings settings) {
                     super(settings);
                 }
             }
 
-            public static class Cheese_Wheel extends Item{
+            public static class Cheese_Wheel extends Item {
 
                 public Cheese_Wheel(Settings settings) {
                     super(settings);
@@ -94,7 +96,11 @@ public class Foods {
         }
 
         public static class Other {
-            public static class Universal_Enzyme extends Item{
+            public static class Universal_Enzyme extends Item {
+                @Override
+                public UseAction getUseAction(ItemStack stack) {
+                    return UseAction.DRINK;
+                }
 
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
@@ -103,56 +109,59 @@ public class Foods {
                 }
 
                 public Universal_Enzyme(Settings settings) {
-
                     super(settings);
                 }
             }
         }
     }
 
-    public static class Burgers{
+    public static class Burgers {
 
-        public static class Burger extends Item{
+        public static class Burger extends Item {
             @Override
             public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
                 tooltip.add(new TranslatableText("item.ssfm.standart_burger.tooltip").formatted(Formatting.GOLD));
                 super.appendTooltip(stack, world, tooltip, context);
             }
+
             public Burger(Settings settings) {
                 super(settings);
             }
         }
 
 
-        public static class Redstone_Burger extends Item{
+        public static class Redstone_Burger extends Item {
             @Override
             public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
                 tooltip.add(new TranslatableText("item.ssfm.redstone_burger.tooltip").formatted(Formatting.GOLD));
                 super.appendTooltip(stack, world, tooltip, context);
             }
+
             public Redstone_Burger(Settings settings) {
                 super(settings);
             }
 
         }
 
-        public static class Super_Bite_Burger extends Item{
+        public static class Super_Bite_Burger extends Item {
             @Override
             public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
                 tooltip.add(new TranslatableText("item.ssfm.cheese_burger.tooltip").formatted(Formatting.GOLD));
                 super.appendTooltip(stack, world, tooltip, context);
             }
+
             public Super_Bite_Burger(Settings settings) {
                 super(settings);
             }
         }
 
-        public static class Big_Bite_Burger extends Item{
+        public static class Big_Bite_Burger extends Item {
             @Override
             public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
                 tooltip.add(new TranslatableText("item.ssfm.cheese_burger.tooltip").formatted(Formatting.GOLD));
                 super.appendTooltip(stack, world, tooltip, context);
             }
+
             public Big_Bite_Burger(Settings settings) {
                 super(settings);
             }
@@ -164,6 +173,7 @@ public class Foods {
                 tooltip.add(new TranslatableText("item.ssfm.cheese_burger.tooltip").formatted(Formatting.GOLD));
                 super.appendTooltip(stack, world, tooltip, context);
             }
+
             public Cheese_Burger(Settings settings) {
                 super(settings);
             }
@@ -175,9 +185,53 @@ public class Foods {
                 tooltip.add(new TranslatableText("item.ssfm.ghost_burger.tooltip").formatted(Formatting.GOLD));
                 super.appendTooltip(stack, world, tooltip, context);
             }
+
             public Ghost_Burger(Settings settings) {
                 super(settings);
             }
+        }
+    }
+
+    public static class Salads {
+        public static class Melon_Fruit_Bowl extends Item {
+
+            @Override
+            public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(new TranslatableText("item.ssfm.melon_fruit_bowl.tooltip").formatted(Formatting.GOLD));
+                super.appendTooltip(stack, world, tooltip, context);
+            }
+
+            public Melon_Fruit_Bowl(Settings settings) {
+                super(settings);
+            }
+        }
+
+        public static class Herb_Salad extends Item {
+
+            @Override
+            public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(new TranslatableText("item.ssfm.herb_salad.tooltip").formatted(Formatting.GOLD));
+                super.appendTooltip(stack, world, tooltip, context);
+            }
+
+            public Herb_Salad(Settings settings) {
+                super(settings);
+            }
+
+        }
+
+        public static class Aesir_Salad extends Item {
+
+            @Override
+            public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                tooltip.add(new TranslatableText("item.ssfm.herb_salad.tooltip").formatted(Formatting.GOLD));
+                super.appendTooltip(stack, world, tooltip, context);
+            }
+
+            public Aesir_Salad(Settings settings) {
+                super(settings);
+            }
+
         }
     }
 }

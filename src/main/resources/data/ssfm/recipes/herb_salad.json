@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "WAW",
+    "WBW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:carrot"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "ssfm:herb_salad",
+    "count": 1
+  }
+}

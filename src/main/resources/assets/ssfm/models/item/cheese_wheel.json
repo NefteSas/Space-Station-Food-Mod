@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ssfm:item/cheese_wheel"
+    "layer0": "ssfm:item/ingridients/cheese/cheese_wheel"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ssfm:item/redstone_burger"
+    "layer0": "ssfm:item/burgers/redstone_burger"
   }
 }
